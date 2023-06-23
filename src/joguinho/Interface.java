@@ -22,6 +22,10 @@ public class Interface {
     public static void main(String[] args) {
         JFrame frame = new JFrame("Joguinho");
         JPanel panel = new JPanel();
+        
+        JButton button = new JButton("Iniciar jogo!");
+        panel.add(button);
+        
         frame.getContentPane().add(panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(800, 600);
